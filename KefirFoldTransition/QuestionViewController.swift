@@ -8,16 +8,16 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class QuestionViewController: UIViewController {
 
+    
+    var theGameController: GameController!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        theGameController = GameController()
         // Do any additional setup after loading the view, typically from a nib.
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        theGameController.mathQuestionGenerator()
     }
 
 
