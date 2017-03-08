@@ -12,11 +12,28 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+    
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        NotificationCenter.default.addObserver(self, selector: #selector(AppDelegate.rotated), name: NSNotification.Name.UIDeviceOrientationDidChange, object: nil)
+        
         return true
+    }
+    
+    func rotated() {
+        if UIDeviceOrientationIsLandscape(UIDevice.current.orientation) {
+            print("Landscape")
+            foldTestViewController.layoutSubviews()
+            
+        }
+        
+        if UIDeviceOrientationIsPortrait(UIDevice.current.orientation) {
+            print("Portrait")
+            foldTestViewController.layoutSubviews()
+        }
+        
     }
 
     func applicationWillResignActive(_ application: UIApplication) {

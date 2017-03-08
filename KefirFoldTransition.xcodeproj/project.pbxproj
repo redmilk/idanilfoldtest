@@ -8,28 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		AC0B56371E5F1DE800CFA7F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0B56361E5F1DE800CFA7F4 /* AppDelegate.swift */; };
-		AC0B56391E5F1DE800CFA7F4 /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0B56381E5F1DE800CFA7F4 /* QuestionViewController.swift */; };
 		AC0B563C1E5F1DE800CFA7F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC0B563A1E5F1DE800CFA7F4 /* Main.storyboard */; };
 		AC0B563E1E5F1DE800CFA7F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC0B563D1E5F1DE800CFA7F4 /* Assets.xcassets */; };
 		AC0B56411E5F1DE800CFA7F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC0B563F1E5F1DE800CFA7F4 /* LaunchScreen.storyboard */; };
-		AC1BBCB81E6B1A9B00A5F5D1 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1BBCB71E6B1A9B00A5F5D1 /* TestViewController.swift */; };
 		ACBB88B51E60329C008FF38D /* MPAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = ACBB88AB1E60329C008FF38D /* MPAnimation.m */; };
 		ACBB88B71E60329C008FF38D /* MPFoldTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = ACBB88B11E60329C008FF38D /* MPFoldTransition.m */; };
 		ACBB88B81E60329C008FF38D /* MPTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = ACBB88B31E60329C008FF38D /* MPTransition.m */; };
 		ACBB88BA1E6032AF008FF38D /* Segues in Resources */ = {isa = PBXBuildFile; fileRef = ACBB88B91E6032AF008FF38D /* Segues */; };
-		ACBB88C01E603F7C008FF38D /* GameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBB88BF1E603F7C008FF38D /* GameController.swift */; };
 		ACDD4EE21E675C2300281C58 /* FoldTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDD4EE11E675C2300281C58 /* FoldTestViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AC0B56331E5F1DE800CFA7F4 /* KefirFoldTransition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KefirFoldTransition.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC0B56361E5F1DE800CFA7F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = KefirFoldTransition/AppDelegate.swift; sourceTree = "<group>"; };
-		AC0B56381E5F1DE800CFA7F4 /* QuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = QuestionViewController.swift; path = KefirFoldTransition/QuestionViewController.swift; sourceTree = "<group>"; };
 		AC0B563B1E5F1DE800CFA7F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AC0B563D1E5F1DE800CFA7F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = KefirFoldTransition/Assets.xcassets; sourceTree = "<group>"; };
 		AC0B56401E5F1DE800CFA7F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC0B56421E5F1DE800CFA7F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = KefirFoldTransition/Info.plist; sourceTree = "<group>"; };
-		AC1BBCB71E6B1A9B00A5F5D1 /* TestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
 		ACBB88891E6031A7008FF38D /* HeaderHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HeaderHeader.h; path = KefirFoldTransition/HeaderHeader.h; sourceTree = "<group>"; };
 		ACBB88AA1E60329C008FF38D /* MPAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPAnimation.h; sourceTree = "<group>"; };
 		ACBB88AB1E60329C008FF38D /* MPAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPAnimation.m; sourceTree = "<group>"; };
@@ -40,7 +35,6 @@
 		ACBB88B31E60329C008FF38D /* MPTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPTransition.m; sourceTree = "<group>"; };
 		ACBB88B41E60329C008FF38D /* MPTransitionEnumerations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPTransitionEnumerations.h; sourceTree = "<group>"; };
 		ACBB88B91E6032AF008FF38D /* Segues */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Segues; sourceTree = "<group>"; };
-		ACBB88BF1E603F7C008FF38D /* GameController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameController.swift; sourceTree = "<group>"; };
 		ACDD4EE11E675C2300281C58 /* FoldTestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoldTestViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -123,10 +117,7 @@
 		ACBB88BE1E603908008FF38D /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				AC0B56381E5F1DE800CFA7F4 /* QuestionViewController.swift */,
-				ACBB88BF1E603F7C008FF38D /* GameController.swift */,
 				ACDD4EE11E675C2300281C58 /* FoldTestViewController.swift */,
-				AC1BBCB71E6B1A9B00A5F5D1 /* TestViewController.swift */,
 			);
 			name = Controllers;
 			path = ..;
@@ -208,11 +199,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				ACBB88B81E60329C008FF38D /* MPTransition.m in Sources */,
-				ACBB88C01E603F7C008FF38D /* GameController.swift in Sources */,
-				AC1BBCB81E6B1A9B00A5F5D1 /* TestViewController.swift in Sources */,
 				ACDD4EE21E675C2300281C58 /* FoldTestViewController.swift in Sources */,
 				ACBB88B71E60329C008FF38D /* MPFoldTransition.m in Sources */,
-				AC0B56391E5F1DE800CFA7F4 /* QuestionViewController.swift in Sources */,
 				ACBB88B51E60329C008FF38D /* MPAnimation.m in Sources */,
 				AC0B56371E5F1DE800CFA7F4 /* AppDelegate.swift in Sources */,
 			);
@@ -342,6 +330,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = ZNLBEN9CLK;
 				INFOPLIST_FILE = KefirFoldTransition/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = KefirFoldTransition;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -359,6 +348,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = ZNLBEN9CLK;
 				INFOPLIST_FILE = KefirFoldTransition/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = KefirFoldTransition;
 				PRODUCT_NAME = "$(TARGET_NAME)";
